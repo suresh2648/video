@@ -100,26 +100,26 @@ nav ul {
 }
 @media (max-width: 600px) {
   nav ul {
-      position: absolute;
-      top: 90px;
-      left: 0;
-      right: 0;
-      flex-direction: column;
-      text-align: center;
-      background: rgba(216, 203, 203, 0.4);
-      /* width: 85%; */
-      width: 100%;
-      overflow: hidden;
-      transition: all 0.4s;
-      max-height: 0; /* Initially hidden */
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(216, 203, 203, 0.4);
+    /* width: 85%; */
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.4s;
+    max-height: 0; /* Initially hidden */
   }
 
   nav ul li {
-      padding: 10px;
+    padding: 10px;
   }
 
   .menu-icon {
-      display: block;
+    display: block;
   }
   .title {
     display: flex;
@@ -129,7 +129,7 @@ nav ul {
     left: 0;
     top: 300px;
     width: 100%;
-}
+  }
 }
 .link-boxes {
   display: flex;
@@ -261,4 +261,10 @@ footer {
 }
 .input-box input[type="button"]:hover {
   opacity: 1;
+}
+img {
+  transition: all 0.3s;
+}
+img:hover {
+  transform: scale(1.1);
 }
